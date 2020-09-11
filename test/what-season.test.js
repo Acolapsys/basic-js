@@ -16,7 +16,7 @@ describe('What season', () => {
         });
     });
 
-    //Specific requirements
+    //Specific requirements 
 
     describe('base requirements', () => {
         it.optional('returns proper value', () => {   
@@ -189,7 +189,7 @@ describe('What season', () => {
             assert.equal(getSeason(new Date(2143, 1, 24, 23, 59, 35, 350)), 'winter');
             assert.equal(getSeason(new Date(1456, 0, 2, 1, 50, 9, 238)), 'winter');
         });
-    });
+    }); 
 
     describe('extended requirements ', () => {   
         it.optional('throws an error on invalid argument', function() {
